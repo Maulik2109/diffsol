@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    margin: 20px;
+    background-color: #e6f7ff; /* Light, airy background */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto; /* Increased top/bottom margin */
+    background-color: #fff;
+    padding: 40px; /* Increased padding */
+    border-radius: 15px; /* More pronounced rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50; /* Darker heading color */
+    margin-bottom: 30px; /* Increased bottom margin */
+    font-weight: 600; /* Semi-bold headings */
+}
+
+.input-section {
+    margin-bottom: 25px; /* Increased spacing */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Adjusted spacing */
+    font-weight: 500;
+    color: #34495e; /* Darker label color */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    border: 1px solid #bdc3c7; /* Softer border */
+    border-radius: 8px; /* More rounded corners */
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #495057;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px 20px; /* Increased padding */
+    background-color: #3498db; /* Vibrant button color */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* More rounded corners */
+    cursor: pointer;
+    font-size: 18px; /* Larger font size */
+    transition: background-color 0.2s ease-in-out;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.output-section {
+    margin-top: 40px; /* Increased margin */
+    padding: 20px; /* Increased padding */
+    border: 1px solid #dbe6e9; /* Light border */
+    border-radius: 8px; /* More rounded corners */
+    background-color: #f4f8f9; /* Very light background */
+}
+
+#output {
+    white-space: pre-wrap;
+    font-family: 'Courier New', monospace; /* Monospace for output */
+    font-size: 15px;
+    color: #495057;
+    line-height: 1.7;
+}

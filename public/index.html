@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference Equation Solver</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> </head>
+<body>
+    <div class="container">
+        <h1>Difference Equation Solver</h1>
+
+        <div class="input-section">
+            <label for="bCoefficients">Coefficients of x (comma-separated):</label>
+            <input type="text" id="bCoefficients" name="bCoefficients">
+        </div>
+
+        <div class="input-section">
+            <label for="aCoefficients">Coefficients of y (comma-separated):</label>
+            <input type="text" id="aCoefficients" name="aCoefficients">
+        </div>
+
+        <div class="input-section">
+            <label for="xInput">Input x[n] (comma-separated):</label>
+            <input type="text" id="xInput" name="xInput">
+        </div>
+
+        <div class="input-section">
+            <label for="lSamples">Number of Samples for y:</label>
+            <input type="number" id="lSamples" name="lSamples" min="1" value="10">
+        </div>
+
+        <div class="input-section">
+            <label for="initialConditions">Initial Conditions for y (comma-separated, if any):</label>
+            <input type="text" id="initialConditions" name="initialConditions" value="0">
+        </div>
+
+        <button id="calculateButton">Calculate</button>
+
+        <div class="output-section">
+            <h2>Output y[n]:</h2>
+            <pre id="output"></pre>
+        </div>
+
+        <div class="plot-section">
+            <h2>Plots</h2>
+            <canvas id="plotCanvas" width="400" height="300"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
