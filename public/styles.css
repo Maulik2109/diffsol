@@ -76,3 +76,7 @@ button:hover {
     color: #495057;
     line-height: 1.7;
 }
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
